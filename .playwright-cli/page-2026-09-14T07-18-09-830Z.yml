@@ -1,0 +1,105 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#about"
+  - banner:
+    - navigation "Portfolio navigation" [ref=e3]:
+      - link "Go to About Me" [ref=e4] [cursor=pointer]:
+        - /url: "#about"
+        - generic [aria-hidden] [ref=e5]: </>
+      - generic [ref=e6]:
+        - link "About Me" [ref=e7] [cursor=pointer]:
+          - /url: "#about"
+        - link "Skills" [ref=e8] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Projects" [ref=e9] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Experience" [ref=e10] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Activities" [ref=e11] [cursor=pointer]:
+          - /url: "#activities"
+        - link "Contact Me" [ref=e12] [cursor=pointer]:
+          - /url: "#contact"
+  - main [ref=e13]:
+    - region "Portfolio landing artwork" [ref=e14]:
+      - img "Cinematic portfolio landing artwork" [ref=e16]
+    - region [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]:
+          - paragraph [ref=e21]: HARIPRASATH LV / SOFTWARE DEVELOPER
+          - generic "Problems meet engineering" [ref=e22]:
+            - generic [ref=e23]: PROBLEMS
+            - generic [ref=e24]: MEET
+            - heading "ENGINEERING" [level=1] [ref=e25]
+        - generic [ref=e26]:
+          - generic [ref=e27]: BUILD WITH
+          - strong [ref=e28]: LOGIC.
+          - generic [ref=e29]: CODE WITH
+          - strong [ref=e30]: PURPOSE.
+        - generic [ref=e31]:
+          - generic [ref=e32]: SOFTWARE.
+          - generic [ref=e33]: AI.
+          - generic [ref=e34]: AUTOMATION.
+          - strong [ref=e35]: BUILT FORREAL PROBLEMS.
+        - generic "Think build test improve solve" [ref=e36]:
+          - generic [ref=e37]: THINK
+          - generic [ref=e38]: BUILD
+          - generic [ref=e39]: TEST
+          - generic [ref=e40]: IMPROVE
+          - generic [ref=e41]: SOLVE
+        - generic "Idea design develop deploy impact" [ref=e42]:
+          - generic [ref=e43]: IDEA
+          - generic [ref=e44]: DESIGN
+          - generic [ref=e45]: DEVELOP
+          - generic [ref=e46]: DEPLOY
+          - generic [ref=e47]: IMPACT
+        - generic [ref=e48]:
+          - article [ref=e49]:
+            - img "Who I Am about section artwork" [ref=e50]
+            - generic [ref=e51]:
+              - paragraph [ref=e52]: WHO I AM
+              - list [ref=e53]:
+                - listitem [ref=e54]: Final-year AI & Data Science student
+                - listitem [ref=e55]: Software developer focused on practical problem solving
+                - listitem [ref=e56]: Building with code, AI, and automation
+          - article [ref=e57]:
+            - img "What I Do about section artwork" [ref=e58]
+            - generic [ref=e59]:
+              - paragraph [ref=e60]: WHAT I DO
+              - list [ref=e61]:
+                - listitem [ref=e62]: Build web applications and software solutions
+                - listitem [ref=e63]: Develop AI-powered and RAG-based systems
+                - listitem [ref=e64]: Create workflow automation with n8n
+          - article [ref=e65]:
+            - img "How I Think about section artwork" [ref=e66]
+            - generic [ref=e67]:
+              - paragraph [ref=e68]: HOW I THINK
+              - list [ref=e69]:
+                - listitem [ref=e70]: Understand the problem first
+                - listitem [ref=e71]: Build, test, and improve iteratively
+                - listitem [ref=e72]: Learn through hands-on projects and real implementation
+    - region [ref=e73]:
+      - paragraph [ref=e74]: "02"
+      - heading "Skills" [level=2] [ref=e75]
+      - generic "Skill areas" [ref=e76]:
+        - generic [ref=e77]: Frontend
+        - generic [ref=e78]: React
+        - generic [ref=e79]: UI Engineering
+        - generic [ref=e80]: Performance
+        - generic [ref=e81]: Responsive Design
+        - generic [ref=e82]: Animation
+    - region [ref=e83]:
+      - paragraph [ref=e84]: "03"
+      - heading "Projects" [level=2] [ref=e85]
+      - paragraph [ref=e86]: Selected builds that balance useful product thinking, refined interfaces, and reliable implementation.
+    - region [ref=e87]:
+      - paragraph [ref=e88]: "04"
+      - heading "Experience" [level=2] [ref=e89]
+      - paragraph [ref=e90]: Practical work across design systems, application interfaces, and production-ready frontend delivery.
+    - region [ref=e91]:
+      - paragraph [ref=e92]: "05"
+      - heading "Activities" [level=2] [ref=e93]
+      - paragraph [ref=e94]: Creative experiments, learning logs, collaborations, and community work that shape the craft.
+    - region [ref=e95]:
+      - paragraph [ref=e96]: "06"
+      - heading "Contact Me" [level=2] [ref=e97]
+      - paragraph [ref=e98]: Open to thoughtful collaborations, product work, and visually ambitious web projects.

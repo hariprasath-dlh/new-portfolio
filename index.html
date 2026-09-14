@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Cinematic developer portfolio">
+    <title>Portfolio</title>
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Luckiest+Guy&family=Playfair+Display:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css?v=12">
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+
+    <header class="site-header" data-navbar>
+      <nav class="nav-shell" aria-label="Portfolio navigation">
+        <a class="brand-mark" href="#about" aria-label="Go to About Me">
+          <span aria-hidden="true">&lt;/&gt;</span>
+        </a>
+
+        <div class="desktop-nav" data-desktop-nav>
+          <span class="nav-spotlight" data-spotlight aria-hidden="true"></span>
+          <a class="nav-link is-active" href="#about" data-nav-link>About Me</a>
+          <a class="nav-link" href="#skills" data-nav-link>Skills</a>
+          <a class="nav-link" href="#projects" data-nav-link>Projects</a>
+          <a class="nav-link" href="#experience" data-nav-link>Experience</a>
+          <a class="nav-link" href="#activities" data-nav-link>Activities</a>
+          <a class="nav-link" href="#contact" data-nav-link>Contact Me</a>
+        </div>
+
+        <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="mobile-menu" aria-expanded="false" data-menu-toggle>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </nav>
+
+      <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+        <a class="mobile-link is-active" href="#about" data-nav-link>About Me</a>
+        <a class="mobile-link" href="#skills" data-nav-link>Skills</a>
+        <a class="mobile-link" href="#projects" data-nav-link>Projects</a>
+        <a class="mobile-link" href="#experience" data-nav-link>Experience</a>
+        <a class="mobile-link" href="#activities" data-nav-link>Activities</a>
+        <a class="mobile-link" href="#contact" data-nav-link>Contact Me</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="Portfolio landing artwork">
+        <picture>
+          <source srcset="landing%20page%20mobile.png" media="(max-width: 720px)">
+          <img src="landing page pc.png" alt="Cinematic portfolio landing artwork">
+        </picture>
+      </section>
+
+      <section class="about-scroll-section" id="about" aria-labelledby="about-title" data-about-section>
+        <div class="about-pin" data-about-pin>
+          <div class="about-white-stage" aria-hidden="true"></div>
+
+          <div class="about-intro" data-about-intro>
+            <p class="about-identity" data-about-identity>Hariprasath L V</p>
+            <span class="about-rule about-rule-left" data-about-rule aria-hidden="true"></span>
+            <span class="about-rule about-rule-right" data-about-rule aria-hidden="true"></span>
+
+            <div class="about-title-stack" aria-label="Where problem meets engineer">
+              <span class="about-title-line about-title-where" data-about-title>WHERE</span>
+              <div class="about-problem-row">
+                <span class="about-title-line about-title-problem" data-about-title>PROBLEM</span>
+                <span class="about-title-line about-title-meets" data-about-title>MEETS</span>
+              </div>
+              <h1 class="about-title-line about-title-engineer" id="about-title" data-about-title>ENGINEER</h1>
+            </div>
+
+            <div class="about-tags" aria-label="Idea design develop deploy">
+              <span class="about-tag about-tag-idea" data-about-tag>Idea</span>
+              <span class="about-tag about-tag-design" data-about-tag>Design</span>
+              <span class="about-tag about-tag-develop" data-about-tag>Develop</span>
+              <span class="about-tag about-tag-deploy" data-about-tag>Deploy</span>
+            </div>
+          </div>
+
+          <div class="about-micro about-micro-tl" data-about-support>
+            <span>Build Logic</span>
+            <span>Make Impact</span>
+          </div>
+
+          <div class="about-micro about-micro-tr" data-about-support>
+            <span>Software</span>
+            <span>Developer</span>
+          </div>
+
+          <div class="about-vertical about-vertical-left" data-about-side-left aria-label="Think build test improve solve">
+            <span>Think</span>
+            <span>Build</span>
+            <span>Test</span>
+            <span>Improve</span>
+            <span>Solve</span>
+          </div>
+
+          <div class="about-vertical about-vertical-right" data-about-side-right aria-label="Code ideas impact">
+            <span>Code</span>
+            <span>Ideas</span>
+            <span>Impact</span>
+          </div>
+
+          <div class="about-puzzle" aria-hidden="true">
+            <span class="puzzle-panel panel-a" data-puzzle-panel></span>
+            <span class="puzzle-panel panel-b" data-puzzle-panel></span>
+            <span class="puzzle-panel panel-c" data-puzzle-panel></span>
+            <span class="puzzle-panel panel-d" data-puzzle-panel></span>
+            <span class="puzzle-panel panel-e" data-puzzle-panel></span>
+            <span class="puzzle-panel panel-f" data-puzzle-panel></span>
+            <span class="puzzle-panel panel-g" data-puzzle-panel></span>
+            <span class="puzzle-panel panel-h" data-puzzle-panel></span>
+          </div>
+
+          <div class="about-image-stage" data-about-images>
+            <article class="about-image-card is-current" data-about-card>
+              <img src="about-who-i-am.png.png" alt="Who I Am about section artwork">
+              <div class="about-copy">
+                <p>WHO I AM</p>
+                <ul>
+                  <li>Final-year AI &amp; Data Science student</li>
+                  <li>Software developer focused on practical problem solving</li>
+                  <li>Building with code, AI, and automation</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="about-image-card" data-about-card>
+              <img src="about-what-i-do.png.png" alt="What I Do about section artwork">
+              <div class="about-copy">
+                <p>WHAT I DO</p>
+                <ul>
+                  <li>Build web applications and software solutions</li>
+                  <li>Develop AI-powered and RAG-based systems</li>
+                  <li>Create workflow automation with n8n</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="about-image-card" data-about-card>
+              <img src="about-how-i-think.png.png" alt="How I Think about section artwork">
+              <div class="about-copy">
+                <p>HOW I THINK</p>
+                <ul>
+                  <li>Understand the problem first</li>
+                  <li>Build, test, and improve iteratively</li>
+                  <li>Learn through hands-on projects and real implementation</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="skills" aria-labelledby="skills-title">
+        <p class="section-kicker">02</p>
+        <h2 id="skills-title">Skills</h2>
+        <div class="tag-grid" aria-label="Skill areas">
+          <span>Frontend</span>
+          <span>React</span>
+          <span>UI Engineering</span>
+          <span>Performance</span>
+          <span>Responsive Design</span>
+          <span>Animation</span>
+        </div>
+      </section>
+
+      <section class="content-section" id="projects" aria-labelledby="projects-title">
+        <p class="section-kicker">03</p>
+        <h2 id="projects-title">Projects</h2>
+        <p>
+          Selected builds that balance useful product thinking, refined interfaces, and reliable implementation.
+        </p>
+      </section>
+
+      <section class="content-section" id="experience" aria-labelledby="experience-title">
+        <p class="section-kicker">04</p>
+        <h2 id="experience-title">Experience</h2>
+        <p>
+          Practical work across design systems, application interfaces, and production-ready frontend delivery.
+        </p>
+      </section>
+
+      <section class="content-section" id="activities" aria-labelledby="activities-title">
+        <p class="section-kicker">05</p>
+        <h2 id="activities-title">Activities</h2>
+        <p>
+          Creative experiments, learning logs, collaborations, and community work that shape the craft.
+        </p>
+      </section>
+
+      <section class="content-section" id="contact" aria-labelledby="contact-title">
+        <p class="section-kicker">06</p>
+        <h2 id="contact-title">Contact Me</h2>
+        <p>
+          Open to thoughtful collaborations, product work, and visually ambitious web projects.
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js?v=10"></script>
+  </body>
+</html>
