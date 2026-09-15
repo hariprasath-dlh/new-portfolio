@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gireesh — Aesthetic Software Developer</title>
+  <meta name="description" content="Portfolio of Gireesh — aesthetic software developer building clean code and digital solutions.">
+  <meta name="theme-color" content="#050302">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%23120806'/%3E%3Ccircle cx='8' cy='8' r='3.4' fill='%23ff5a1f'/%3E%3C/svg%3E">
+
+  <!-- Flag JS availability before first paint (no-JS users get the composed, static hero). -->
+  <script>document.documentElement.classList.replace('no-js', 'js')</script>
+
+  <link rel="preload" as="image" href="landing%20page%20pc.png" media="(min-width: 721px)" fetchpriority="high">
+  <link rel="preload" as="image" href="landing%20page%20mobile.png" media="(max-width: 720px)" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wdth,wght@100..125,500..700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=13">
+</head>
+<body>
+
+  <main>
+  <section class="hero" id="top">
+
+    <div class="portrait-parallax">
+      <div class="portrait-frame">
+        <div class="portrait-stage fx fx-portrait">
+          <picture>
+            <source media="(max-width: 720px)" srcset="landing%20page%20mobile.png">
+            <img class="portrait-img" src="landing page pc.png" width="1672" height="941"
+                 alt="Gireesh portfolio landing page" decoding="async">
+          </picture>
+        </div>
+      </div>
+    </div>
+
+    <!-- L06 · Header (single header; pill is the animated element) -->
+    <header class="site-header">
+      <div class="header-pill fx fx-header">
+        <a class="brand" href="#top" aria-label="Home">
+          <svg class="brand-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="m3 10.8 9-7.2 9 7.2"/>
+            <path d="M5.4 9.4v10h13.2v-10"/>
+            <path d="M9.7 19.4v-5.3h4.6v5.3"/>
+          </svg>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a class="nav-link" href="#section-03" data-slot="nav-0">About Me</a></li>
+            <li><a class="nav-link" href="#method" data-slot="nav-1">Skills</a></li>
+            <li><a class="nav-link" href="#projects" data-slot="nav-2">Projects</a></li>
+            <li><a class="nav-link" href="#think" data-slot="nav-3">Experience</a></li>
+            <li><a class="nav-link" href="#curious" data-slot="nav-4">Activities</a></li>
+            <li><a class="nav-link" href="#contact" data-slot="nav-5">Contact Me</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+
+  </section>
+
+  <!-- ==========================================================
+       SECTION 02 · Where code meets creative thinking
+       Scroll-scrubbed, pinned editorial composition.
+       Final resting state replicates "Section 2 Image.jpg";
+       coordinates use --u (1% of the reference width).
+       ========================================================== -->
+  <section class="s2-pin" id="work" aria-label="Where code meets creative thinking">
+    <div class="s2-stage">
+
+      <div class="s2-comp">
+        <p class="s2-brand s2-meta">
+          <span class="s2-brand-my">Hi I'M </span><span class="s2-brand-creative">Hari</span><span class="s2-brand-hunch">prasath LV</span>
+        </p>
+
+        <div class="s2-side s2-side--left s2-meta">
+          <p><span>Finds the</span> <strong data-slot="s2-side-l1">Problems.</strong></p>
+          <p><span>Builds the</span> <strong><em data-slot="s2-side-l2">Solutions.</em></strong></p>
+        </div>
+
+        <div class="s2-side s2-side--right s2-meta">
+          <p><span>Your Neighborhood Software Engineer.</span> <strong data-slot="s2-side-r1"></strong></p>
+          <p><span>With Creative</span> <strong data-slot="s2-side-r2">Thoughts.</strong></p>
+        </div>
+
+        <h2 class="s2-title">
+          <span class="s2-mask s2-mask-1"><span class="s2-line s2-line-1"><span class="s2-where">Where</span></span></span>
+          <span class="s2-mask s2-mask-2"><span class="s2-line s2-line-2"><span class="s2-Problem">Code</span><span class="s2-meets">Meets</span></span></span>
+          <span class="s2-mask s2-mask-3"><span class="s2-line s2-line-3"><span class="s2-creative">Creative</span><span class="s2-thinking">Engineer</span></span></span>
+        </h2>
+
+        <ul class="s2-labels" aria-label="Focus areas">
+          <li class="s2-label-pos s2-pos-ai"><span class="s2-label s2-label--ai">IDEA.</span></li>
+          <li class="s2-label-pos s2-pos-sys"><span class="s2-label s2-label--sys">DESIGN.</span></li>
+          <li class="s2-label-pos s2-pos-web"><span class="s2-label s2-label--web">DEVELOP.</span></li>
+          <li class="s2-label-pos s2-pos-api"><span class="s2-label s2-label--api">DEPLOY.</span></li>
+          <li class="s2-label-pos s2-pos-auto"><span class="s2-label s2-label--auto">SOLUTION.</span></li>
+        </ul>
+      </div>
+
+      <div class="s2-rail s2-rail--left s2-meta" aria-hidden="true">
+        <span class="s2-rail-dot"></span>
+        <ul class="s2-rail-list">
+          <li>Idea</li><li>Design</li><li>Develop</li><li>Deploy</li><li>Impact</li>
+        </ul>
+        <span class="s2-rail-line s2-rail-line--a"></span>
+        <span class="s2-rail-line s2-rail-line--b"></span>
+      </div>
+
+      <div class="s2-rail s2-rail--right s2-meta" aria-hidden="true">
+        <span class="s2-rail-dot"></span>
+        <ul class="s2-rail-list">
+          <li>Idea</li><li>Design</li><li>Develop</li><li>Deploy</li><li>Impact</li>
+        </ul>
+        <span class="s2-rail-line s2-rail-line--a"></span>
+        <span class="s2-rail-line s2-rail-line--b"></span>
+      </div>
+
+      <!-- ------------------------------------------------------
+           SECTION 02 → 03 · puzzle transition layers
+           Hidden until the scrub enters the transition phase;
+           script.js drives every state from scroll progress.
+           Tile fragments are cloned from .s2-comp at runtime.
+           ------------------------------------------------------ -->
+      <div class="s3-atmo" aria-hidden="true">
+        <p class="s3-credit s3-credit--l">MyCreativeHunch Studio</p>
+        <p class="s3-credit s3-credit--r">&copy; 2026 MyCreativeHunch</p>
+      </div>
+
+      <!-- ------------------------------------------------------
+           SECTION 03 · replicates "section 3 refrence.jpg".
+           Emerges behind the departing puzzle pieces; locked and
+           interactive once the scrub completes.
+           ------------------------------------------------------ -->
+      <div class="p3" id="section-03">
+        <div class="p3-dim" aria-hidden="true">
+          <span>Functional &amp; Beautiful</span>
+          <span>Designs for Startups</span>
+          <span class="p3-dim-3">Ready to Scale</span>
+        </div>
+
+        <p class="p3-corner p3-corner--l">Transforming <b>Visions</b> to Reality</p>
+        <p class="p3-corner p3-corner--r">www.mycreativehunch.com</p>
+
+        <!-- About Me composition: oversized title, three doors, footer meta -->
+        <div class="ab-comp">
+          <span class="ab-title-mask">
+            <h2 class="ab-title"><span class="ab-title-main">About</span><span class="ab-title-script">Me</span></h2>
+          </span>
+
+          <div class="ab-boxes">
+            <div class="ab-box-pos">
+              <button class="ab-box ab-box--who" type="button" data-ab="who" aria-expanded="false">
+                <span class="ab-box-in">
+                  <img class="ab-img" src="assets/about-who-i-am.png" alt="" loading="lazy" decoding="async">
+                </span>
+              </button>
+            </div>
+
+            <div class="ab-box-pos">
+              <button class="ab-box ab-box--what" type="button" data-ab="what" aria-expanded="false">
+                <span class="ab-box-in">
+                  <img class="ab-img ab-img--air" src="assets/about-what-i-do.png" alt="" loading="lazy" decoding="async">
+                </span>
+              </button>
+            </div>
+
+            <div class="ab-box-pos">
+              <button class="ab-box ab-box--think" type="button" data-ab="think" aria-expanded="false">
+                <span class="ab-box-in">
+                  <img class="ab-img" src="assets/about-how-i-think.png" alt="" loading="lazy" decoding="async">
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="ab-foot">
+            <span>( 03 &middot; About )</span>
+            <span>Web &middot; App &middot; Code</span>
+          </div>
+        </div>
+
+        <!-- expanded state: the clicked box opens into this layer -->
+        <div class="ab-detail" role="region" aria-label="About details">
+          <button class="ab-close" type="button" aria-label="Close">
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+          </button>
+
+          <div class="ab-view" data-ab="who">
+            <div class="ab-view-media"><img src="assets/about-who-i-am.png" alt="Portrait of Gireesh" loading="lazy" decoding="async"></div>
+          </div>
+
+          <!-- "What I Do" has no About card: it navigates to Section 4 — My Works -->
+
+          <div class="ab-view" data-ab="think">
+            <div class="ab-view-media"><img src="assets/about-how-i-think.png" alt="How I Think" loading="lazy" decoding="async"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="s3-window" aria-hidden="true">
+        <div class="s3-ghost"></div>
+        <div class="s3-frags"></div>
+        <div class="s3-cluster"></div>
+        <div class="s3-window-frame"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       BIG ROBOT · the original large Nexbot experience, restored.
+       Large robot, black environment, the scene's own lighting and
+       movement left as supplied. Scroll is the camera for the glass
+       idea panels that travel past it. Copy: content.js -> bigRobot.
+       ========================================================== -->
+  <section class="rb" id="think" aria-label="How I think about technology">
+    <div class="rb-pin">
+      <div class="rb-stage-wrap">
+        <div class="rb-env" aria-hidden="true">
+          <span class="rb-glow"></span>
+          <span class="rb-grid"></span>
+          <span class="rb-vignette"></span>
+        </div>
+
+        <p class="rb-tag rb-tag--l" data-slot="rb-label-l">Computer Science Student</p>
+        <p class="rb-tag rb-tag--r" data-slot="rb-label-r">Software &middot; Creative Technology</p>
+
+        <div class="rb-space">
+          <div class="rb-stage">
+            <canvas class="rb-canvas" aria-hidden="true"></canvas>
+          </div>
+          <div class="rb-panels"><!-- panels injected from content.js --></div>
+        </div>
+
+        <div class="rb-center">
+          <p class="rb-eyebrow" data-slot="rb-eyebrow">( 05 &middot; The Mind )</p>
+          <h2 class="rb-title">
+            <span data-slot="rb-title-1">I build software that</span>
+            <span data-slot="rb-title-2">looks as good as it works.</span>
+          </h2>
+          <p class="rb-sub" data-slot="rb-sub"></p>
+          <p class="rb-hint">
+            <span data-slot="rb-hint">Scroll to move through the ideas.</span>
+            <span class="rb-hint-arrow" aria-hidden="true">&darr;</span>
+          </p>
+        </div>
+
+        <span class="rb-depth" aria-hidden="true"></span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ==========================================================
+       EDITORIAL / SKILLS · scroll-choreographed
+       The statement travels in from the LEFT, the skills from the
+       RIGHT one item at a time, all scrubbed to scroll. Copy lives
+       in content.js -> editorial; the timeline in script.js mod 10.
+       ========================================================== -->
+  <section class="ed" id="method" aria-label="Code is my medium">
+    <div class="ed-pin">
+      <div class="ed-stage">
+        <div class="ed-env" aria-hidden="true"><span class="ed-glow"></span></div>
+
+        <div class="ed-grid">
+          <div class="ed-left">
+            <p class="ed-eyebrow" data-slot="ed-eyebrow">( 06 &middot; The Method )</p>
+            <h2 class="ed-statement">
+              <span class="ed-mask"><span class="ed-line" data-slot="ed-line-1">Code is my medium.</span></span>
+              <span class="ed-mask"><span class="ed-line" data-slot="ed-line-2">Curiosity is my engine.</span></span>
+            </h2>
+            <p class="ed-note" data-slot="ed-note"></p>
+          </div>
+
+          <div class="ed-right">
+            <p class="ed-skills-title" data-slot="ed-skills-title">I Work With</p>
+            <div class="ed-reel"><div class="ed-reel-in" data-slot="ed-reel"><!-- built from content.js --></div></div>
+          </div>
+        </div>
+
+        <span class="ed-progress" aria-hidden="true"></span>
+      </div>
+    </div>
+
+    <!-- the calm ending, once the choreography has finished -->
+    <div class="ed-tail">
+      <div class="ed-tail-in">
+        <div class="ed-mindset">
+          <p class="ed-mindset-title" data-slot="ed-mindset-title">Learn &rarr; Build &rarr; Break &rarr; Improve</p>
+          <ul class="ed-mindset-lines" data-slot="ed-mindset-lines"></ul>
+        </div>
+
+        <div class="ed-exploring">
+          <p class="ed-block-title" data-slot="ed-exploring-title">Currently Exploring</p>
+          <ul class="ed-explore-list" data-slot="ed-exploring-items"></ul>
+        </div>
+
+        <div class="ed-end">
+          <h3 class="ed-end-title" data-slot="ed-end-lines"></h3>
+          <p class="ed-end-note" data-slot="ed-end-note"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================
+       SMALL ROBOT · its own minimal chapter. The little robot
+       looks front → left → front → right → front, automatically:
+       no mouse, no scroll. Copy: content.js -> smallRobot.
+       ========================================================== -->
+  <section class="sr" id="curious" aria-label="Still curious">
+    <div class="sr-env" aria-hidden="true">
+      <span class="sr-glow"></span>
+      <span class="sr-vignette"></span>
+    </div>
+
+    <div class="sr-inner">
+      <div class="sr-copy">
+        <p class="sr-eyebrow" data-slot="sr-eyebrow">( 06 &middot; Still Curious )</p>
+        <h2 class="sr-title">
+          <span data-slot="sr-title-1">Always looking</span>
+          <span data-slot="sr-title-2">for the next thing.</span>
+        </h2>
+        <p class="sr-sub" data-slot="sr-sub"></p>
+        <p class="sr-note"><span data-slot="sr-note"></span></p>
+      </div>
+
+      <div class="sr-stage">
+        <canvas class="sr-canvas" aria-hidden="true"></canvas>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ==========================================================
+       SECTION 04 · MY SELECTED WORKS — hidden immersive chapter.
+       NOT part of the scroll flow: the page ends at About Me, and
+       only the "What I Do" door (or nav "Projects") opens this
+       fixed overlay via the black flash. Its internal scroller
+       drives a 3D dolly through full-screen project stages built
+       from content.js → works.projects.
+       ========================================================== -->
+  <div class="wk" id="works" aria-hidden="true">
+    <div class="wk-void" aria-hidden="true">
+      <div class="wk-dim">
+        <span>Functional &amp; Beautiful</span>
+        <span>Designs for Startups</span>
+        <span class="wk-dim-3">Ready to Scale</span>
+      </div>
+      <p class="wk-corner wk-corner--l">Transforming <b>Visions</b> to Reality</p>
+      <p class="wk-corner wk-corner--r">www.mycreativehunch.com</p>
+    </div>
+
+    <div class="wk-scroll">
+      <div class="wk-track">
+        <div class="wk-stage">
+
+          <div class="wk-head" data-enter style="--d:.08s">
+            <span class="wk-brand">
+              <svg class="wk-brand-mark" viewBox="0 0 44 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 4.5 4.5 12l7.5 7.5"/><path d="M32 4.5 39.5 12 32 19.5"/><path d="M25.5 3.5 18.5 20.5"/>
+              </svg>
+              <b>MyCreativeHunch</b>&nbsp;Studio
+            </span>
+            <button class="wk-back" type="button" aria-label="Back to About">
+              <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- the 3D world: screens are injected here from content.js -->
+          <div class="wk-space"></div>
+
+          <p class="wk-counter" data-enter style="--d:.2s"><b data-wk-idx>01</b> / <span data-wk-total>05</span></p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- project detail shell (case studies plug in here later) -->
+    <div class="wk-detail" role="region" aria-label="Project detail">
+      <button class="wk-detail-close" type="button" aria-label="Back to works">
+        <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+      </button>
+      <figure class="wk-detail-media"><img alt="" decoding="async"></figure>
+      <p class="wk-detail-title"></p>
+    </div>
+  </div>
+
+  <!-- ==========================================================
+       FOOTER · the last chapter. The statement is revealed by
+       movement as the page ends, matching the site's language.
+       Copy lives in content.js -> footer.
+       ========================================================== -->
+  <footer class="ft" id="contact">
+    <div class="ft-env" aria-hidden="true"><span class="ft-glow"></span></div>
+
+    <div class="ft-in">
+      <p class="ft-eyebrow" data-slot="ft-eyebrow">( 07 &middot; Contact )</p>
+
+      <h2 class="ft-headline">
+        <span class="ft-mask"><span class="ft-line" data-slot="ft-head-1">Let&rsquo;s build</span></span>
+        <span class="ft-mask"><span class="ft-line" data-slot="ft-head-2">something good.</span></span>
+      </h2>
+
+      <p class="ft-line-note" data-slot="ft-line"></p>
+
+      <a class="ft-mail" data-slot-href="ft-mail" href="#">
+        <span class="ft-mail-label" data-slot="ft-mail-label">Say hello</span>
+        <span class="ft-mail-address" data-slot="ft-mail-address"></span>
+        <svg class="ft-mail-arrow" viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M1 6h15M11 1l5 5-5 5"/>
+        </svg>
+      </a>
+
+      <nav class="ft-cols" data-slot="ft-cols" aria-label="Footer"></nav>
+
+      <div class="ft-base">
+        <span class="ft-brand">
+          <svg class="ft-mark" viewBox="0 0 44 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 4.5 4.5 12l7.5 7.5"/><path d="M32 4.5 39.5 12 32 19.5"/><path d="M25.5 3.5 18.5 20.5"/>
+          </svg>
+          <b data-slot="ft-legal">&copy; 2026 Gireesh</b>
+          <i data-slot="ft-note"></i>
+        </span>
+
+        <button class="ft-top" type="button">
+          <span data-slot="ft-top">Back to top</span>
+          <svg viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 13V2M1.5 6.5 6 2l4.5 4.5"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- cinematic black flash between chapters -->
+  <div class="flash" aria-hidden="true"></div>
+
+  <script src="content.js?v=13"></script>
+  <script src="script.js?v=13"></script>
+</body>
+</html>
